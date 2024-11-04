@@ -1,4 +1,4 @@
-  body{
+body{
       background-color:rgb(25, 25, 25) ;
       color: white;
       font-family: Areal;
@@ -9,7 +9,7 @@
      font-weight: bold;
    }
   .move-icon{
-      height: 110px;
+      height: 90px;
      
     }
   .move-button{
@@ -17,8 +17,8 @@
     border:1px solid white;
     border-radius: 50%;
         overflow: hidden;
-     height: 120px;
-     width: 120px;
+     height: 90px;
+     width: 90px;
      cursor: pointer;
     
   }
@@ -40,7 +40,7 @@
   
   
 .marquee{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background-color: blue;
