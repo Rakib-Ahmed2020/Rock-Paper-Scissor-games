@@ -71,7 +71,7 @@
   
    //display move 
    
-      document.querySelector('.js-move').innerHTML= 'You pick' + '<img src="./images/'+playerMove+'.png" class="move-icon" alt="" />' + 'Computer Pick' + '<img src="./images/'+comResult+'.png" class="move-icon" alt="" />';
+      document.querySelector('.js-move').innerHTML= 'You pick' + '<img src="./images/'+playerMove+'.png" class="move-icon" alt="" />' +'<br>'+ 'Computer Pick' + '<img src="./images/'+comResult+'.png" class="move-icon" alt="" />';
    
    
    console.log(playerMove);
